@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - Red Bus Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1> Bus Ticket Booking</h1>
+    <p>Reserve Your Seat Easily</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+     <a href="about.html">About us</a>
+    <a href="Routes.HTML">Routes</a>
+    <a href="Bookings.HTML">Booking</a>
+    <a href="Contact.HTML">Contact</a>
+</nav>
+
+<section class="booking-container">
+
+    <div class="booking-card">
+
+        <h2>Passenger Details</h2>
+
+        <form action="#" method="post">
+
+            <label>Passenger Name</label>
+            <input type="text" placeholder="Enter Full Name" required>
+
+            <label>Mobile Number</label>
+            <input type="tel" placeholder="Enter Mobile Number" required>
+
+            <label>Source City</label>
+            <input type="text" placeholder="Enter Source City" required>
+
+            <label>Destination City</label>
+            <input type="text" placeholder="Enter Destination City" required>
+
+            <label>Journey Date</label>
+            <input type="date" required>
+
+            <label>Bus Type</label>
+            <select required>
+                <option value="">Select Bus Type</option>
+                <option>Luxury Sleeper</option>
+                <option>AC Seater</option>
+                <option>Non-AC Seater</option>
+                <option>Volvo AC</option>
+            </select>
+
+            <button type="submit">🎫 Book Ticket</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- Booking Summary Section -->
+
+<section class="summary">
+
+    <h2>Booking Summary</h2>
+
+    <div class="summary-box">
+        <p>Your booking details will appear here after form submission.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Red Bus Agency. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
